@@ -1,0 +1,257 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    z-index: 1000;
+    color: 	#696969;
+}
+
+header a {
+    color: 	#696969;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+.jumbotron {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    line-height: 800px;
+    height: 100%;
+    overflow: hidden;
+    font-family: Apple Chancery, cursive;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.jumbotron video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.länder {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    height: 200px;
+    line-height: 0,5;
+
+}
+    .länder a {
+        position: relative;
+        text-align: center;
+        color: white;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px
+    }
+
+.about {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+}
+
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+.submit {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #DCDCDC;
+    height: 500px;
+    background-color: white;
+}
+.submit p{
+        max-width: 800px;
+        margin: 0 auto;
+}
+.submit input[type="text"] {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+.submit input[type="submit"] {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+}
+    .mexico{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    height: 2500px;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+    color: white;
+}
+.mexico p{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.mexico ul {
+    list-style-position: none;
+    background-color: transparent;
+padding: 0;
+}
+.mexico ol {
+    list-style-position: inside;
+}
+.mexicohead{
+    height: 500px;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+}
+.puertobanner{
+    height: 500px;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+}
+.puerto-rico {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    height: 2500px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+    color: white;
+}
+.puerto-rico p{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.puerto-rico ul {
+    list-style-position: none;
+    background-color: transparent;
+    padding: 0;
+}
+.puerto-rico ol {
+    list-style-position: inside;
+}
+.philippinen {
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    height: 2000px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: scroll;
+    color: white;
+}
+.philippinen p{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.philippinbanner {
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+}
+.philippinen ul{
+    list-style-position: none;
+    background-color: transparent;
+    padding: 0;
+}
+.philippinen ol{
+    list-style-position: inside;
+}
+
+.follow{
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    overflow: none;
+    background-color: black;
+    color: white;
+}
+
+.follow p{
+    max-width: 800px;
+    margin: 0 auto;
+}
+.feed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+
+}
+
+
+.contact {
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    overflow: none;
+    background-color: white;
+    color: black;
+    height: 300px;
+}
+
+.contact p{
+    max-width: 800px;
+    margin: 0 auto;
+}
